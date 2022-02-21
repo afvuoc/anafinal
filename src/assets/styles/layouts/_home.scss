@@ -633,7 +633,7 @@ header {
     height: calc(100vh - 2.2rem);
     max-height: calc(100vh - 2.2rem);
     display: block;
-    opacity: 0.5;
+    opacity: 0.2;
   }
 
   .slider figure {
@@ -659,7 +659,7 @@ header {
     max-height: calc(92vh - 2.4rem);
   }
   .slider figure img {
-    height: 100%;
+    height: calc(92vh - 2.4rem);
    
   }.swiper-slide-text {
  
@@ -1823,7 +1823,7 @@ footer article ul li{
 }
 @media (max-width: 567px){
   .icon-skill img {
-    width: 12vw;
+    width: 13vw;
     display: flex;
     padding-right: 2vw;
     padding-top: 0.7rem;

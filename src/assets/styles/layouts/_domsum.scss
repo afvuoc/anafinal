@@ -588,22 +588,22 @@ main h1 {
   padding-top: 6.5vh;
 }
 }
-@media (max-width: 810px){
+@media (max-width: 768px){
  spam {
    display:inline;
  }
  
  main h1 {
-   padding-top: 5.5%;
+   padding-top: 6%;
 }
  main h1, main h3, main p {
    padding-left: 5.5%;
-   padding-right: 3%;
+   padding-right: 7%;
  }
 
  main h3 {
    padding-top: 1%;
-   padding-bottom: %;
+   padding-bottom: 3%;
    font-size: 1rem;
  }
 
@@ -750,7 +750,7 @@ main h1 {
    width: 35vw;
  }
  }
-@media (max-width: 810px){
+@media (max-width: 768px){
 
 .recomendations-object > img {
  width: 60vw;
@@ -921,7 +921,7 @@ footer article ul li{
 }
 
 
-@media (max-width: 810px){
+@media (max-width: 768px){
 
   .program{
     display:flex;padding-right: 7%;
