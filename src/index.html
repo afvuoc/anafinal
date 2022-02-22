@@ -598,6 +598,28 @@
             <button type="submit" value="send">ENVIAR<i class="fas fa-angle-right" style="scale: 1.4;padding-left: 1.7rem;"></i>
             </button>
           </form>
+          <form id="form" class="form" name="atarashii-form" netlify action="/gracias">
+            <div class="form-control">
+              <input type="text" id="username" name="nombre" placeholder="Nombre" />
+              <small>Error message</small>
+            </div>
+            <div class="form-control">
+              <input type="text" id="email" name="correo-electronico" placeholder="Email" />
+              <small>Error message</small>
+            </div>
+  
+            <div class="form-control">
+              <input type="text" id="phone" name="telefono" placeholder="Teléfono" />
+              <small>Error message</small>
+            </div>
+  
+            <div class="form-control">
+              <textarea type="text" id="message" name="mensaje" placeholder="Escribe un mensaje"></textarea>
+              <small>Error message</small>
+            </div>
+            <button type="submit" class="btn btn-dark" value="send">Enviar mensaje</button>
+  
+          </form>
         </section>
       </div>
     </article>
