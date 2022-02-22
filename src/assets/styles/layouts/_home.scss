@@ -727,6 +727,9 @@ header {
         .card-header img:hover {
           opacity:0.6;
         }
+        .card-header video:hover {
+          opacity:0.6;
+        }
 
         .card-header img {
           width: 100%;
@@ -1454,11 +1457,7 @@ header {
               opacity: 1;
               border: 1px solid black;
               transition: 0.4s;
-              padding: 12px 22px;
-              margin-top: 5%;
-              margin-bottom: 3%;
-              font-size: 1.15rem;
-              font-weight: 300;
+          
               cursor: pointer;
               border-radius: 30px;
             }
