@@ -676,9 +676,7 @@ main h1 {
  }
 
 
- .flex-item:first-child {
-   margin-top: 0;
- }
+
 
 
  .flex-tablet {
@@ -687,6 +685,10 @@ main h1 {
 .flex-item {
   width: 43.5vw;
   margin-top: 4%;
+}
+.flex-item:first-child,
+.flex-item2 {
+  margin-top: 0;
 }
 .flex-top {
   margin-top: 0;
@@ -729,7 +731,7 @@ main h1 {
 }
 
 .recomendations-object:hover{
- opacity:0.8;
+ opacity:0.6;
 }
 
 .recomendations-object img {
@@ -950,6 +952,7 @@ footer article ul li{
     main h3 {
       padding-bottom: 3%;
     }
+
   }
 
 
@@ -1075,7 +1078,7 @@ margin-bottom: 5%;
 }
 
 @media (max-width: 576px){
-  .flex-cartel-2,.flex-item:first-child {
+  .flex-cartel-2 {
 
     background: white;
     width: 16.3vw;
@@ -1116,5 +1119,8 @@ margin-bottom: 6%;
   }
   .insta-2, .insta-1{
     margin-bottom:0;
+  }
+  .flex-item3 {
+    margin-top: 0;
   }
 }
