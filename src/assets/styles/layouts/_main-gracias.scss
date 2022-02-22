@@ -312,3 +312,12 @@ html, * {
   text-decoration: none;
   font-family: sans-serif;
 }
+
+@media (max-width: $afv-media-tablet) {
+
+
+
+  .modal {
+    Height: 93vh;
+  }
+}
