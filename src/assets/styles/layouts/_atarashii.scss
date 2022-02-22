@@ -524,8 +524,7 @@ main img {
 
 .flex-item {
  background: white;
- width: 16.5vw;
- color: white;
+ width: 16.3vw; color: white;
  font-weight: bold;
  font-size: 3em;
  text-align: center;
@@ -544,9 +543,6 @@ main img {
  margin-bottom: 4%; 
 }
 
-.flex-item:nth-child(0n+5){
- margin-bottom: 8%; 
-}
 
 .flexbox-container > div:last-child {
  background: white;
@@ -556,7 +552,6 @@ main img {
  overflow: hidden;
 }
 
-
 @media (max-width: 992px){
  spam {
    display:none;
@@ -564,19 +559,21 @@ main img {
  .flex-container {
   margin-top: 7%;
 }
- .flex-item {
-   width: 20vw;
-   margin-bottom: 4%;
- }
+.flex-item {
+  width: 20.4vw;
+  margin-bottom: 5%;
+}
+ .flex-tablet {
+  margin-bottom: 5%;
+  width: 20vw;
+}
 
  .flex-pc {
    width: 42vw;
    margin-bottom: 5%; 
  }
 
- .flex-item:nth-child(11) {
-   margin-bottom: 8%;
- }
+
 
  .flexbox-container > div:first-child {
    width: 50%;
@@ -639,14 +636,10 @@ main h1 {
  }
 
  .flex-tablet {
-   width: 42vw; 
- }
+  width: 43vw;
+}
 
- .flex-item:first-child,
- .flex-item:nth-child(0n+2),
- .flex-item:nth-child(0n+3){
- margin-top: 1%;
- }
+
 }
 
 @media (max-width: 576px){
@@ -682,25 +675,25 @@ main h1 {
    padding-bottom: 8%;
  }
 
- .flex-item{
-   width: 43vw;
-   margin-top: 4%;
- }
 
  .flex-item:first-child {
    margin-top: 0;
  }
- .flex-pc, .flex-tablet {
-   width: 90vw;
-   margin-bottom:6%;
- }
+
 
  .flex-tablet {
-   width: 42vw;
- }
-
-.flex-item, .flex-item:nth-child(2), .flex-item:nth-child(3) {
- margin-top: 6%;
+  width: 43vw;
+}
+.flex-item {
+  width: 43.5vw;
+  margin-top: 4%;
+}
+.flex-top {
+  margin-top: 0;
+}
+.flex-pc, .flex-tablet {
+  width: 90vw;
+  margin-bottom:6%;
 }
 
  }
@@ -961,4 +954,167 @@ footer article ul li{
 
 
 
+  .flex-cartel-2{
+    width: 20.4%;
+margin: 1%;
+margin-bottom: 4%;
+margin-top:1.5%;
+  }
+
+  .flex-icons {
+    width: 25%;
+   
+    margin: 0;
+    padding: 0;
+  }
+
+  .flex-icons:nth-child(1),
+  .flex-icons:nth-child(2),
+  .flex-icons:nth-child(3),
+  .flex-icons:nth-child(4){
+    margin-top:1.5%;
+  }
+  .flex-icons:nth-child(5),
+  .flex-icons:nth-child(6),
+  .flex-icons:nth-child(7),
+  .flex-icons:nth-child(8){
+    margin-bottom:3%;
+  }
+
+  .flex-instagram {
+    width: 33.33%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .flex-cartel {
+    width: 25.3vw;
+  }
+
+  .flex-poster{
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom:0;
+  }
+
+  .flex-merch{
+    width: 27vw;
+    margin-top:0;
+  }
+
+
+  @media (max-width: 992px){
+    .flex-cartel-2{
+      background: white;
+width: 16.3vw;
+color: white;
+font-weight: bold;
+font-size: 3em;
+text-align: center;
+margin: 1%;
+    width: 20.4vw;
+margin-bottom: 5%;
+}
+
+.flex-icons {
+  width: 50%;
+
+}
+.flex-icons:nth-child(5), .flex-icons:nth-child(6) {
+  margin-bottom: 0;
+}
+.flex-cartel-2 {
+  margin-bottom: 2%;
+}
+
+.flex-cartel-2:nth-child(3),.flex-cartel-2:nth-child(4){
+  margin-bottom: 6.5%;
+}
+.flex-icons:nth-child(7),
+  .flex-icons:nth-child(8){
+    margin-bottom:5%;
+  }
+
+
+.tablet-5{
+  width: 42vw;
+margin-bottom: 5%;
+}
+
+.flex-none{
+  display:none;
+}
+.flex-cartel {
+  width: 20.4vw;
+}.flex-merch {
+  width: 23vw;
+}
+  }
+
+
+  @media (max-width: 810px){
+
+  .flex-icons {
+    width: 25%;
+  }
+  .flex-none{
+    display:flex;
+  } 
+  .flex-cartel-2 {
+
+    width: 21vw;
+  }
+ 
+  .flex-cartel {
+    width: 43.5%;
+  }
+  .flex-merch {
+    width: 43%;
+  }
+}
+
+@media (max-width: 576px){
+  .flex-cartel-2,.flex-item:first-child {
+
+    background: white;
+    width: 16.3vw;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    margin: 1.5%;
+      margin-top: 1.5%;
+      margin-bottom: 1.5%;
+    margin-bottom: 2%;
+    margin-bottom: 5%;
+    width: 43.5vw;
+margin-top: 4%;
+  }
+  .flex-icons {
+    width: 50%;
+  }
+  .flex-cartel-2:nth-child(3), .flex-cartel-2:nth-child(4) {
+    margin-bottom: 9%;
+  }
+  .flex-cartel-2:nth-child(1), .flex-cartel-2:nth-child(2) {
+    margin-bottom:0%;
+  }.flex-none{
+    display:none;
+  }
+
+  .tablet-6{
+    width: 90vw;
+margin-bottom: 6%;
+  }.flex-instagram {
+    width: 100%;
   
+    display: flex;
+  }
+  .insta-2, .insta-3{
+    margin-top:0;
+  }
+  .insta-2, .insta-1{
+    margin-bottom:0;
+  }
+}

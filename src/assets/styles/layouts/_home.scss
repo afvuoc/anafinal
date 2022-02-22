@@ -208,7 +208,7 @@ html {
   border-right: 0;
   border-left: 0;
   display: block;
-  width: 99.8vw;
+  width: 100vw;
   margin-left: 0;
   margin-right: 0;
   overflow: hidden;
@@ -596,7 +596,7 @@ header {
     position: relative;
     top: $afv-header-height;
     left: 0;
-    width: 600%;
+    width: 900%;
     font-size: 0;
     animation: 38s slidy infinite;
 
@@ -610,17 +610,23 @@ header {
 
 @keyframes slidy {
   0% { left: 0%; }
-  15% { left: 0%; }
-  19% { left: -100%; }
-  32% { left: -100%; }
-  36% { left: -200%; }
-  49% { left: -200%; }
-  53% { left: -300%; }
-  66% { left: -300%; }
-  70% { left: -400%; }
-  83% { left: -400%; }
-  87% { left: -500%; }
-  100% { left: -500%; }
+  6% { left: 0%; }
+  12% { left: -100%; }
+  18% { left: -100%; }
+  24% { left: -200%; }
+  30% { left: -200%; }
+  36% { left: -300%; }
+  42% { left: -300%; }
+  48% { left: -400%; }
+  54% { left: -400%; }
+  60% { left: -500%; }
+  66% { left: -500%; }
+  72% { left: -600%; }
+  78% { left: -600%; }
+  84% { left: -700%; }
+  90% { left: -700%; }
+  95% { left: -800%; }
+  100% { left: -800%; }
 }
 
 @media (max-width: $afv-media-tablet) {
