@@ -1384,10 +1384,9 @@ header {
             box-sizing: border-box;
             width: 100%;
             font-family: $afv-font-family;
-            font-size: 0.95rem;
+            font-size: 1.15rem;
             font-weight: 400;
             padding: 2%;
-            text-transform: uppercase;
             opacity: 1;
             border-top:0;
              
@@ -1414,7 +1413,7 @@ header {
             textarea {
               box-sizing: border-box;
               min-height: 15vh;
-              font-size: 0.95rem;
+              font-size: 1.15rem;
               resize:vertical;
               color: white;
               border-left: 1px solid white;
@@ -1426,7 +1425,6 @@ header {
               font-family: "Open sans", Arial, sans-serif;
               font-weight: 400;
               padding: 2%;
-              text-transform: uppercase;
               opacity: 1;
               padding-bottom: 40%;
 
@@ -1580,7 +1578,7 @@ header {
           button {
             width:auto;
             margin-top:6%;
-            font-size: 0.95rem;
+            font-size: 1rem;
           }
         }
       }
@@ -1782,10 +1780,16 @@ footer article ul li{
     padding-right: 2.3%;
   }
 
-  .contact .container-form .form-fields form input {
+  .contact .container-form .form-fields form input{
  
-    font-size: .9rem!important;
+    font-size: 1.1rem!important;
     padding: 3%!important;
+  }
+  .contact .container-form .form-fields form .form-control textarea {
+ 
+    font-size: 1.1rem!important;
+    padding-left: 3%!important;
+    padding-top:3%;
   }
 }
 
