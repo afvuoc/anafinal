@@ -73,6 +73,7 @@
         <li><a href="#projects">Proyectos </a></li>
         <li><a href="#about-me">Sobre mí</a></li>
         <li><a href="#contact">Contacto</a></li>
+
       </ul>
       <button class="menu-ham" type="button">
         <span class="br-1"></span>
@@ -574,7 +575,7 @@
         </section>
 
         <section class="form-fields container">
-          <form id="form" class="form" data-aos="fade-up" data-aos-duration="1000" method="POST" data-netlify="true" name="contact">
+          <form id="form" class="form" data-aos="fade-up" data-aos-duration="1000" method="POST" data-netlify="true" name="contact" style="display:none;">
             <div class="form-control">
               <input type="text" id="username" name="username" style="border-top: 1px solid white;" placeholder="Nombre" />
               <small>Error message</small>
@@ -598,16 +599,22 @@
             <button type="submit" value="send">ENVIAR<i class="fas fa-angle-right" style="scale: 1.4;padding-left: 1.7rem;"></i>
             </button>
           </form>
-          <form id="form" class="form" name="atarashii-form" netlify action="/gracias">
+
+
+
+          <form id="form" class="form" name="atarashii-form" data-aos="fade-up" data-aos-duration="1000" netlify action="/gracias">
             <div class="form-control">
-              <input type="text" id="username" name="nombre" placeholder="Nombre" />
+              <input type="text" id="username" name="nombre" style="border-top: 1px solid white;" placeholder="Nombre" />
               <small>Error message</small>
             </div>
             <div class="form-control">
               <input type="text" id="email" name="correo-electronico" placeholder="Email" />
               <small>Error message</small>
             </div>
-  
+            <div class="form-control">
+              <input type="text" name="asunto" id="matter2" placeholder="Asunto" />
+              <small>Error message</small>
+            </div>
             <div class="form-control">
               <input type="text" id="phone" name="telefono" placeholder="Teléfono" />
               <small>Error message</small>
