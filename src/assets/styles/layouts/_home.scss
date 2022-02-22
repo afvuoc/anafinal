@@ -598,7 +598,7 @@ header {
     left: 0;
     width: 900%;
     font-size: 0;
-    animation: 38s slidy infinite;
+    animation: 45s slidy infinite;
 
     img {
       width: $slider-with;
@@ -1852,3 +1852,10 @@ footer article ul li{
   }
 }
 
+.rotation-2{
+  animation: none;
+  z-index: 200;
+  width: 8rem;
+  left: 2rem;
+  bottom: 12rem;
+}
