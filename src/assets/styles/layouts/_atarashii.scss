@@ -528,6 +528,15 @@ main img {
   height: calc(100vh - 3.3rem);
 }
 
+.project-link a{
+color:#94c7fd;
+transition: 0.4s;
+
+&:hover{
+  opacity:0.7;
+}
+}
+
 .program{
   display:flex;
   padding-right: 7%;
